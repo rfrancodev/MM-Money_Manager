@@ -45,7 +45,7 @@ Inicie o servidor
 Local para testar end-points
 
 ```bash
-Insomnia
+https://insomnia.rest
 
 ```
 
