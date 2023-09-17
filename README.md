@@ -1,8 +1,8 @@
 
 # Money Manager
 
-Este projeto é uma API para sistema bancário. Você conseguirá realizar as principais transações bancárias como: criar uma conta, atualizar ou excluir. Realizar depósito, saque, transferência e consultar saldo ou extrato bancárioRealizar depósito, saque, transferência e consultar saldo ou extrato bancário.
-
+Este projeto é uma API para sistema bancário. Você conseguirá realizar as principais transações bancárias.
+Este projeto foi um desafio do curso de back-end da @CubosAcademy.
 ## Rodando localmente
 
 Clone o projeto
@@ -71,12 +71,12 @@ http://localhost:3000/contas
 
 ## Armazenamento de dados
 Os dados são persistidos em memoria. Dessa forma sempre que o servidor for atualizado as informações são zeradas. 
-O armazenamento permanete de dados esta previsto como melhoria
+O armazenamento permanente de dados esta previsto como melhoria.
 ## Documentação da API
 
 ### Principais end-points
 
-#### Retorna lista de todas as contas
+#### - Listar todas as contas
 
 ```http
   GET http://localhost:3000/contas
@@ -84,9 +84,9 @@ O armazenamento permanete de dados esta previsto como melhoria
 
 | Parâmetro   | Tipo       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
-| `api_key` | `string` | **Obrigatório**. A senha da API: Cubos123Bank |
+| `senha` | `string` | **A senha é:** Cubos123Bank |
 
-#### Cria uma nova conta
+#### - Criar uma nova conta
 
 ```http
   POST http://localhost:3000/contas
@@ -106,7 +106,7 @@ O armazenamento permanete de dados esta previsto como melhoria
             "senha": "1234"
             }
 
-#### Realiza transfências
+#### - Realizar transfências
 
 ```http
   POST http://localhost:3000/transacoes/transferir
@@ -125,7 +125,7 @@ O armazenamento permanete de dados esta previsto como melhoria
     }
 
 Recebe dois números de contas diferentes.
-#### Extrato da conta
+#### - Extrato da conta
 
 ```http
   GET http://localhost:3000/contas/extrato/1/1234
