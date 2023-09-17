@@ -177,15 +177,38 @@ Recebe dois números de contas diferentes.
 }
 
 
+## Demonstração
+
+#### Essa é a visualização dos end-points pelo Insomnia. 
+
+[![end-points.png](https://i.postimg.cc/bwGL12D2/end-points.png)](https://postimg.cc/HrgQgntp)
+
+#### O GET "Listar Contas" irá retornar os dados do Banco e todas as contas cadastradas e suas respectivas informções.
+
+[![lista-contas.png](https://i.postimg.cc/7LGcPWMd/lista-contas.png)](https://postimg.cc/06vZcZ40)
+
+#### Não esqueça de inserir a **senha**. Ela pode ser passada pelo query conforme imagem.
+
+[![senha.png](https://i.postimg.cc/tCqMnTNh/senha.png)](https://postimg.cc/F16Z2hqR)
+
+#### Exemplo de dados que podem ser atualizados.
+
+[![atualizar-conta.png](https://i.postimg.cc/mk8VyYy7/atualizar-conta.png)](https://postimg.cc/JHHb1Bgh)
+
+#### Exemplo de extrato bancário.
+
+[![extrato.png](https://i.postimg.cc/RZzxY97h/extrato.png)](https://postimg.cc/JGKFyfdC)
+
 ## Autores
 
+- [Rafael Franco](https://www.linkedin.com/in/rafa-franco/)
 - [@rfrancodev](https://github.com/rfrancodev)
 
 
 ## Stack utilizada
 
 
-**Back-end:** Node, Express, Insomnia
+**Back-end:** Javascript, Node, Express, Insomnia
 
 
 ## Melhorias
@@ -205,5 +228,3 @@ Por favor, siga o `código de conduta` desse projeto.
 ## Feedback
 
 Se você tiver algum feedback, por favor nos deixe saber por meio de francorfs@hotmail.com
-
-
